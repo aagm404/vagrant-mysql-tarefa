@@ -19,11 +19,11 @@ O projeto foi implementado com `Vagrant 2.2.14`
 Como teste, pode-se utilizar os comandos abaixo (ou qualquer variação válida dos mesmos) na máquina host:
 ```
 mysql -D petclinic -u petclinic -h localhost -P 3306 --password=petclinic
+mysql -D petclinic -u petclinic -h 10.80.4.10 -P 3306 --password=petclinic
 ```
 ou
 ```
+mysql -D petclinic -u petclinic -h 10.80.4.10 -P 3306 -p
 mysql -D petclinic -u petclinic -P 3306 -p
 Password: petclinic
 ```
-  
-*Obs.: Conforme entendi a atividade, o acesso ao banco de dados na maquina virtual deve se dar pelo "localhost" da máquina host. Sendo assim, não defini nenhum IP ao fazer o binding de portas entre o guest e o host (vide **Vagrantfile**)*

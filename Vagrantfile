@@ -17,8 +17,7 @@ Vagrant.configure("2") do |config|
   end
 
   config.vm.define "mysqlserver" do |mysqlserver|
-    mysqlserver.vm.network "private_network"
-    #, ip: "10.80.4.10"
+    mysqlserver.vm.network "private_network", ip: "10.80.4.10"
     mysqlserver.vm.network "forwarded_port", guest: 3306, host: 3306
 
     mysqlserver.vm.provider "virtualbox" do |vb|
