@@ -18,7 +18,7 @@ O projeto foi implementado com Vagrant na versão 2.2.14
   
 Como teste, pode-se utilizar os comandos abaixo (ou qualquer variação válida dos mesmos) na máquina host:  
 * **mysql -D petclinic -u petclinic -p petclinic -h localhost -P 3306 --password=petclinic**  
-  .
+  
 * **mysql -D petclinic -u petclinic -P 3306 -p**  
 * **Password:** petclinic  
 
