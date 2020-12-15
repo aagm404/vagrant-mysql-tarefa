@@ -7,7 +7,7 @@
   
 ## Projeto  
   
-Este repositório contém um projeto Vagrant para ser entregue como atividade avaliada.  
+Este repositório contém um projeto Vagrant para ser entregue como atividade para avaliação.  
   
 O intuito é subir uma máquina virtual com MySQL instalado e que esteja acessível no host da máquina na porta 3306.  
   
@@ -16,9 +16,9 @@ Vale ressaltar aqui que utilizei o exemplo disponibilizado pelo professor no dir
   
 O projeto foi implementado com Vagrant na versão 2.2.14  
   
-Como teste, pode-se utilizar os comandos abaixo (ou qualquer variação válida dos mesmos) no host da máquina:  
+Como teste, pode-se utilizar os comandos abaixo (ou qualquer variação válida dos mesmos) na máquina host:  
 * **mysql -D petclinic -u petclinic -p petclinic -h localhost -P 3306 --password=petclinic**  
-*  
+  .
 * **mysql -D petclinic -u petclinic -P 3306 -p**  
 * **Password:** petclinic  
 
